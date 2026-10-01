@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>焼肉 燈 - AKARI -</title>
+
+<style>
+    body {
+        background-color: #111;
+        color: #eeeeee;
+        font-family: "Yu Mincho", "游明朝", serif;
+        margin: 0;
+        padding: 60px;
+        line-height: 1.8;
+    }
+
+    h1 {
+        color: #d4af37;
+        font-size: 42px;
+        letter-spacing: 5px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    h2 {
+        color: #d4af37;
+        letter-spacing: 2px;
+        margin-top: 50px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    button {
+        background-color: #d4af37;
+        color: #111;
+        border: none;
+        padding: 15px 35px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    button:hover {
+        background-color: white;
+ 
+ }img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+}.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    filter: brightness(55%);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.hero-text h1 {
+    color: #d4af37;
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-text p {
+    color: white;
+    font-size: 20px;
+}.courses {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.course-card {
+    flex: 1;
+    border: 1px solid #d4af37;
+    padding: 30px;
+    text-align: center;
+    background-color: #181818;
+}
+
+.course-card h3 {
+    color: #d4af37;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.course-card p {
+    font-size: 20px;
+}@media (max-width: 700px) {
+
+    body {
+        padding: 20px;
+    }
+
+    .courses {
+        flex-direction: column;
+    }
+
+    .hero img {
+        height: 350px;
+    }
+
+    .hero-text h1 {
+        font-size: 30px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+}.private-room {
+    margin-top: 80px;
+    padding: 60px 40px;
+    border-top: 1px solid #d4af37;
+    border-bottom: 1px solid #d4af37;
+    text-align: center;
+    background-color: #181818;
+}
+
+.private-room h2 {
+    margin-top: 0;
+}
+
+.private-room h3 {
+    color: white;
+    font-size: 26px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.private-room p {
+    max-width: 700px;
+    margin: 20px auto 0;
+    color: #cccccc;
+}.reservation {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.reservation p {
+    color: #d4af37;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.reserve-button {
+    display: inline-block;
+    background-color: #d4af37;
+    color: #111;
+    text-decoration: none;
+    padding: 16px 50px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.reserve-button:hover {
+    background-color: white;
+}.shop-info {
+    max-width: 800px;
+    margin: 80px auto;
+}
+
+.shop-info h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.info-row {
+    display: flex;
+    border-bottom: 1px solid #444;
+    padding: 18px 0;
+}
+
+.info-row span {
+    width: 150px;
+    color: #d4af37;
+    font-weight: bold;
+}
+
+.info-row p {
+    margin: 0;
+    color: #dddddd;
+}footer {
+    text-align: center;
+    border-top: 1px solid #333;
+    padding: 50px 20px;
+    margin-top: 80px;
+    background-color: #0a0a0a;
+}
+
+.footer-logo {
+    color: #d4af37;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.footer-message {
+    color: #aaaaaa;
+    font-size: 14px;
+}
+
+.copyright {
+    color: #666666;
+    font-size: 12px;
+    margin-top: 30px;
+}
+</style>
+
+</head>
+
+<body>
+
+    <div class="hero">
+    <img src="main.png" alt="高級焼肉">
+
+    <div class="hero-text">
+        <h1>焼肉 燈 - AKARI -</h1>
+        <p>静かな個室で、ゆっくり楽しむ上質な焼肉。</p>
+    </div>
+</div>
+
+    <h2>静かな個室で、ゆっくり楽しむ上質な焼肉。</h2>
+
+    <p>
+        全席個室の落ち着いた空間で、
+        厳選した焼肉とコース料理をお楽しみください。
+    </p>
+
+    <h2>COURSE</h2>
+
+<div class="courses">
+
+    <div class="course-card">
+        <h3>燈コース</h3>
+        <p>5,000円</p>
+    </div>
+
+    <div class="course-card">
+        <h3>特選コース</h3>
+        <p>7,000円</p>
+    </div>
+
+    <div class="course-card">
+        <h3>極コース</h3>
+        <p>10,000円</p>
+    </div>
+
+</div>
+
+    <section class="private-room">
+
+    <h2>PRIVATE ROOM</h2>
+
+    <h3>大切な時間を、落ち着いた個室で。</h3>
+
+    <p>
+        全席個室のプライベートな空間をご用意しております。
+        デート、ご家族でのお食事、記念日、接待など、
+        さまざまなシーンでゆっくりとお過ごしください。
+    </p>
+
+</section>
+
+    <div class="reservation">
+    <section class="shop-info">
+
+    <h2>SHOP INFO</h2>
+
+    <div class="info-row">
+        <span>店名</span>
+        <p>焼肉 燈 - AKARI -</p>
+    </div>
+
+    <div class="info-row">
+        <span>住所</span>
+        <p>神奈川県〇〇市〇〇 1-2-3</p>
+    </div>
+
+    <div class="info-row">
+        <span>営業時間</span>
+        <p>17:00 - 23:00</p>
+    </div>
+
+    <div class="info-row">
+        <span>定休日</span>
+        <p>水曜日</p>
+    </div>
+
+    <div class="info-row">
+        <span>席</span>
+        <p>全席個室</p>
+    </div>
+
+</section>
+        <p>ご予約・お問い合わせ</p>
+    <a href="#" class="reserve-button">ご予約はこちら</a>
+</div>
+<footer>
+    <p class="footer-logo">焼肉 燈 - AKARI -</p>
+    <p class="footer-message">静かな個室で、ゆっくり楽しむ上質な焼肉。</p>
+    <p class="copyright">© 2026 YAKINIKU AKARI</p>
+</footer>
+</body>
+
+</html>
